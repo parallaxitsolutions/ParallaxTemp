@@ -47,6 +47,7 @@ resource "azurerm_windows_web_app" "app_service" {
   site_config {
     always_on = false
     application_stack {
+      current_stack   = "dotnet"
       dotnet_version  = "v7.0"
     }
   }
