@@ -1,1 +1,0 @@
-az webapp deploy --async false --clean true --subscription 'Parallax Core' --resource-group 'aptitude_test_rg' --name 'parallaxtestapp-2611' --restart true --src-path ..\content\AptitudeApp.zip
